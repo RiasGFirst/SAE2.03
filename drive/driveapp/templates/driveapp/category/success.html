@@ -1,0 +1,15 @@
+{% extends "driveapp/templates.html" %}
+{% block title %} Drive | Success {% endblock %}
+
+{% block content %}
+{{block.super}}
+<h1> Category added successfully </h1>
+
+<p>{{category}}</p>
+
+<p>The category {{category.name}} has been added</p>
+
+<a href="/category"> Back to category list </a>
+
+
+{% endblock %}

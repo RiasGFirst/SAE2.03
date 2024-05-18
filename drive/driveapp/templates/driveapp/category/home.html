@@ -1,0 +1,34 @@
+{% extends "driveapp/templates.html" %}
+
+{% block title %}Home Category{% endblock %}
+
+{% block content %}
+    <h1>Home Category</h1>
+
+    <!-- Create a table to display the list of categories -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Loop through the categories and display them in the table -->
+            {% for category in categories %}
+                <tr>
+                    <td>{{ category.name }}</td>
+                    <td>{{ category.description }}</td>
+                    <td>
+                        <!-- Add a link to edit the category -->
+                        <a href="/category/update/{{ category.id }}" class="btn btn-warning">Edit</a>
+                        <!-- Add a form to delete the category -->
+                        <a href="/category/delete/{{ category.id }}" class="btn btn-warning">Remove</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

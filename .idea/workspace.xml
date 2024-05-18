@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V0.0.1 C.R.U.D Not Working have to finish">
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/category/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/category/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/customer/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/update.html" afterDir="false" />
+    </list>
+    <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RiasGFirst&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RiasGFirst/SAE2.03.git&quot;,
+    &quot;accountId&quot;: &quot;75f5f187-637d-471a-a911-a0f6d6a7aca4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gXUYGwODv0vaxot3VWt9rpilDv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "marcelin",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Rias/PycharmProjects/SAE2.03/drive/driveapp/templates/driveapp/product",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\product" />
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\category" />
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\customer" />
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\order" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\views" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="" />
+      <created>1715843463950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715843463950</updated>
+      <workItem from="1715843466928" duration="607000" />
+      <workItem from="1715844099671" duration="7955000" />
+      <workItem from="1715856003781" duration="495000" />
+      <workItem from="1715856521150" duration="430000" />
+      <workItem from="1716027514809" duration="2564000" />
+    </task>
+    <task id="LOCAL-00001" summary="Start project">
+      <option name="closed" value="true" />
+      <created>1715843564287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715843564287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V0.0.1 C.R.U.D Not Working have to finish">
+      <option name="closed" value="true" />
+      <created>1715852145079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715852145079</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start project" />
+    <MESSAGE value="V0.0.1 C.R.U.D Not Working have to finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.0.1 C.R.U.D Not Working have to finish" />
+  </component>
+</project>
