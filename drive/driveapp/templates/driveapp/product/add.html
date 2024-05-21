@@ -5,7 +5,7 @@
 {{block.super}}
 <h1> Add a product </h1>
 
-<form method="post" action="/product/processing/">
+<form method="post" action="/product/processing/" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.as_ul }}
     <input type="submit" value="Add">

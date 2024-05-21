@@ -1,0 +1,12 @@
+{% extends 'driveapp/templates.html' %}
+
+
+{% block title %}
+    {{product.name}}
+{% endblock %}
+
+{% block content %}
+<h1>{{product.name}}</h1>
+<p>{{product}}</p>
+<img src="{{product.image.url}}"/>
+{% endblock %}

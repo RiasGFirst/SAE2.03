@@ -52,18 +52,16 @@ class CategoryForm(ModelForm):
 class OrderForm(ModelForm):
     class Meta:
         model = models.Order
-        fields = ['client', 'number', 'status', 'products']
+        fields = ['client', 'number', 'status']
         labels = {
             'client': _('Client of the order'),
             'number': _('Number of the order'),
             'status': _('Status of the order'),
-            'products': _('Products of the order'),
         }
         help_texts = {
             'client': _('Select the client of the order'),
             'number': _('Enter the number of the order'),
             'status': _('Enter the status of the order'),
-            'products': _('Select the products of the order'),
         }
         error_messages = {
             'number': {

@@ -9,14 +9,14 @@ class Customer(models.Model):
     address = models.CharField(max_length=100)
 
     def __str__(self):
-        return f"{self.name}, {self.forname}, {self.inscription_date}, {self.address}"
+        return f"{self.name}, {self.forname}"
 
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
     date_peremption = models.DateField()
-    image = models.ImageField(upload_to='static/driveapp/images/products/')
+    image = models.ImageField()
     brand = models.CharField(max_length=100)
     price = models.FloatField()
 

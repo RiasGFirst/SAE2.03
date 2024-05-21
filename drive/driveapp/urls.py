@@ -22,6 +22,7 @@ urlpatterns = [
     path('order/processing_update/<int:id>/', views_order.processing_update),
     path('order/show/<int:id>', views_order.show),
     path('order/delete/<int:id>', views_order.delete),
+    path('order/<int:id>/add_product/', views_order.add_product),
 
     # Customer URLs
     path('customer/', views_customer.home),

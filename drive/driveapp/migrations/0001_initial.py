@@ -54,7 +54,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=100)),
                 ('date_peremption', models.DateField()),
-                ('image', models.ImageField(upload_to='static/driveapp/images/products/')),
+                ('image', models.ImageField(upload_to='static/driveapp/media/products/')),
                 ('brand', models.CharField(max_length=100)),
                 ('price', models.FloatField()),
                 ('category', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='driveapp.category')),

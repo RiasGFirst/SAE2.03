@@ -1,4 +1,5 @@
 from django.shortcuts import render, HttpResponseRedirect
+from PIL import Image
 from ..forms import ProductForm
 from .. import models
 
@@ -16,10 +17,17 @@ def add(request):
 
 
 def processing(request):
-    lform = ProductForm(request.POST)
+    lform = ProductForm(request.POST, request.FILES)
     if lform.is_valid():
-        lform.save()
+        product = lform.save()
+        image = lform.cleaned_data.get('image')
+        if image:
+            img = Image.open(image)  # de la biblio de PIL
+            img.thumbnail((300, 300))
+            img.save(product.image.path)
         return render(request, 'driveapp/product/success.html', {'product': lform.cleaned_data})
+    else:
+        HttpResponseRedirect("/product/")
 
 
 def update(request, id):

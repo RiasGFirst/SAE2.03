@@ -4,5 +4,32 @@
 
 {% block content %}
     <h1>Home Order</h1>
-
+    <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Client</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Loop through the categories and display them in the table -->
+                {% for order in orders %}
+                    <tr>
+                        <td>{{ order.number }}</td>
+                        <td>{{ order.client }}</td>
+                        <td>{{ order.status }}</td>
+                        <td>
+                            <!-- Add a link to view the product -->
+                            <a href="/order/show/{{ order.id }}" class="btn btn-warning">View</a>
+                            <!-- Add a link to edit the category -->
+                            <a href="/order/update/{{ order.id }}" class="btn btn-warning">Edit</a>
+                            <!-- Add a form to delete the category -->
+                            <a href="/order/delete/{{ order.id }}" class="btn btn-warning">Remove</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
 {% endblock %}

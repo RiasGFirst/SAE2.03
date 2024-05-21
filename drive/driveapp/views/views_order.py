@@ -4,8 +4,10 @@ from .. import models
 
 # Create your views here.
 
+
 def home(request):
-    return render(request, 'driveapp/order/home.html')
+    order = models.Order.objects.all()
+    return render(request, 'driveapp/order/home.html', {'orders': order})
 
 
 def add(request):
@@ -17,7 +19,7 @@ def processing(request):
     form = OrderForm(request.POST)
     if form.is_valid():
         form.save()
-        return render(request, 'driveapp/lorder/success.html', {'order': form.cleaned_data})
+        return render(request, 'driveapp/order/success.html', {'order': form.cleaned_data})
     else:
         return render(request, 'driveapp/order/error.html')
 
@@ -48,3 +50,8 @@ def delete(request, id):
     order = models.Order.objects.get(id=id)
     order.delete()
     return HttpResponseRedirect("/order/")
+
+
+def add_product(request, id):
+    pass
+

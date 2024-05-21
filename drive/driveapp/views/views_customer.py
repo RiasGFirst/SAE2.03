@@ -6,7 +6,8 @@ from .. import models
 
 
 def home(request):
-    return render(request, 'driveapp/customer/home.html')
+    customer = models.Customer.objects.all()
+    return render(request, 'driveapp/customer/home.html', {'customers': customer})
 
 
 def add(request):

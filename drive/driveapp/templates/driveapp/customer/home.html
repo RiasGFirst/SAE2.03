@@ -4,5 +4,33 @@
 
 {% block content %}
     <h1>Home Customer</h1>
+    <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Forname</th>
+                    <th>Address</th>
+                    <th>Inscription date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Loop through the categories and display them in the table -->
+                {% for customer in customers %}
+                    <tr>
+                        <td>{{ customer.name }}</td>
+                        <td>{{ customer.forname }}</td>
+                        <td>{{ customer.address }}</td>
+                        <td>{{ customer.inscription_date }}</td>
+                        <td>
+                            <!-- Add a link to edit the category -->
+                            <a href="/customer/update/{{ customer.id }}" class="btn btn-warning">Edit</a>
+                            <!-- Add a form to delete the category -->
+                            <a href="/customer/delete/{{ customer.id }}" class="btn btn-warning">Remove</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
 
 {% endblock %}
