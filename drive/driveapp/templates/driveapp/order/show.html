@@ -8,6 +8,34 @@
 {% block content %}
 <h1>Order {{order.number}}</h1>
 <p>{{order}}</p>
-<a href=""
+        <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantité</th>
+            <th>Prix</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Loop through the categories and display them in the table -->
+        {% for List in l %}
+            <tr>
+                <td>{{ List.product.name }}</td>
+                <td>{{ List.quantity }}</td>
+                <td>{{ List.product.price }}€/unite</td>
+                <td>
+                    <!-- Add a link to view the product -->
+                    <a href="/list/show/{{ List.id }}/" class="btn btn-warning">View</a>
+                    <!-- Add a link to edit the category -->
+                    <a href="/list/update/{{ List.id }}/" class="btn btn-warning">Edit</a>
+                    <!-- Add a form to delete the category -->
+                    <a href="/list/delete/{{ List.id }}/" class="btn btn-warning">Remove</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="/order/{{ order.id }}/add_product/"> Ajouter une liste de produits pour la commande </a>
 
 {% endblock %}

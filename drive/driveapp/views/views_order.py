@@ -43,7 +43,8 @@ def processing_update(request, id):
 
 def show(request, id):
     order = models.Order.objects.get(id=id)
-    return render(request, 'driveapp/order/show.html', {'order': order})
+    l = list(models.List.objects.filter(order_id=id))
+    return render(request, 'driveapp/order/show.html', {'order': order, "l": l})
 
 
 def delete(request, id):
@@ -53,5 +54,12 @@ def delete(request, id):
 
 
 def add_product(request, id):
+    order = models.Order.objects.get(id=id)
+
+    pass
+
+def product_process(request, id):
+    order = models.Order.objects.get(id=id)
+
     pass
 

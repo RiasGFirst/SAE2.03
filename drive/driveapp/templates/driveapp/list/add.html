@@ -1,0 +1,14 @@
+{% extends "driveapp/templates.html" %}
+{% block title %} Drive | Add List of products {% endblock %}
+
+{% block content %}
+{{block.super}}
+<h1> Add a List of product </h1>
+
+<form method="post" action="/list/{{id_order}}/processing/">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <input type="submit" value="Add">
+</form>
+
+{% endblock %}

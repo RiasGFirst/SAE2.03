@@ -73,9 +73,8 @@ class OrderForm(ModelForm):
 class ListForm(ModelForm):
     class Meta:
         model = models.List
-        fields = ['order', 'product', 'quantity']
+        fields = ['product', 'quantity']
         labels = {
-            'order': _('Order of the list'),
             'product': _('Product of the list'),
             'quantity': _('Quantity of the list'),
         }

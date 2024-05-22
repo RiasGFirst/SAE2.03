@@ -27,7 +27,7 @@ def processing(request):
             img.save(product.image.path)
         return render(request, 'driveapp/product/success.html', {'product': lform.cleaned_data})
     else:
-        HttpResponseRedirect("/product/")
+        return render(request,"driveapp/product/add.html",{"form" : lform})
 
 
 def update(request, id):

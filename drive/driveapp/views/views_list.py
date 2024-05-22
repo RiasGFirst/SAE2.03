@@ -5,18 +5,22 @@ from .. import models
 # Create your views here.
 
 
-def add(request):
+def add(request, id):
     form = ListForm()
-    return render(request, 'driveapp/list/add.html', {'form': form})
+    return render(request, 'driveapp/list/add.html', {'form': form, 'id_order': id})
 
 
-def processing(request):
-    form = ListForm(request.POST)
-    if form.is_valid():
-        form.save()
-        return render(request, 'driveapp/list/success.html', {'list': form.cleaned_data})
+def processing(request, id):
+    order = models.Order.objects.get(pk=id)
+    lform = ListForm(request.POST)
+    if lform.is_valid():
+        liste = lform.save(commit=False)
+        liste.order = order
+        liste.order_id = id
+        lform.save()
+        return HttpResponseRedirect("/order/")
     else:
-        return render(request, 'driveapp/list/error.html')
+        return render(request,"driveapp/list/add.html",{"form": lform})
 
 
 def update(request, id):
@@ -44,4 +48,6 @@ def show(request, id):
 def delete(request, id):
     list = models.List.objects.get(id=id)
     list.delete()
-    return HttpResponseRedirect("/list/")
+    return HttpResponseRedirect("/list/{{list.order.id}}")
+
+

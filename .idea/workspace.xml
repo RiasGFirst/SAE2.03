@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end">
-      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/customer/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/list/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/list/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SAE2.03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SAE2.03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drive/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/drive/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/customer/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/customer/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/show.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_customer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/media/Capture_décran_2024-05-18_131633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/media/Capture_décran_2024-05-18_131633_MBLgzGK.png" beforeDir="false" />
     </list>
-    <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="">
-      <change beforePath="$PROJECT_DIR$/drive/drive/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/drive/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/migrations/0001_initial.py" afterDir="false" />
-    </list>
+    <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,18 +57,16 @@
     &quot;accountId&quot;: &quot;75f5f187-637d-471a-a911-a0f6d6a7aca4&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/drive/drive/settings.py">
-      <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="b0637819-f543-46f5-9cdd-bc52a584461c" />
-        <range start1="119" end1="119" start2="120" end2="122" changelist="fc080393-430b-414b-bd6f-7daa602f450a" />
-      </ranges>
-    </file>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2gXUYGwODv0vaxot3VWt9rpilDv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,10 +75,12 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.views_product.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "marcelin",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "order",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Rias/PycharmProjects/SAE2.03/drive/driveapp/templates/driveapp/customer",
+    "last_opened_file_path": "C:/Users/tarti/Desktop/SAE2.03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -166,7 +161,15 @@
     <MESSAGE value="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end" />
     <option name="LAST_COMMIT_MESSAGE" value="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SAE2_03$views_product.coverage" NAME="views_product Coverage Results" MODIFIED="1716280168437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drive/driveapp/views" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/drive/driveapp/views/views_list.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
