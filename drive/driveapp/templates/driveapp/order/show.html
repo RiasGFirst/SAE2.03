@@ -14,7 +14,6 @@
             <th>Name</th>
             <th>Quantité</th>
             <th>Prix</th>
-            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -24,18 +23,10 @@
                 <td>{{ List.product.name }}</td>
                 <td>{{ List.quantity }}</td>
                 <td>{{ List.product.price }}€/unite</td>
-                <td>
-                    <!-- Add a link to view the product -->
-                    <a href="/list/show/{{ List.id }}/" class="btn btn-warning">View</a>
-                    <!-- Add a link to edit the category -->
-                    <a href="/list/update/{{ List.id }}/" class="btn btn-warning">Edit</a>
-                    <!-- Add a form to delete the category -->
-                    <a href="/list/delete/{{ List.id }}/" class="btn btn-warning">Remove</a>
-                </td>
             </tr>
         {% endfor %}
     </tbody>
 </table>
-<a href="/order/{{ order.id }}/add_product/"> Ajouter une liste de produits pour la commande </a>
+<a href="/list/add/{{ order.id }}"> Add a product to the list </a>
 
 {% endblock %}

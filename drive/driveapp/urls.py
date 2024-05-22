@@ -24,9 +24,9 @@ urlpatterns = [
     path('order/delete/<int:id>', views_order.delete),
 
     # List URLs
-    path('order/<int:id>/add_product/', views_list.add),
-    path('list/<int:id>/processing/', views_list.processing),
-    path('list/delete/<int:id>/', views_list.delete),
+
+    path('list/add/<int:id>/', views_list.add),
+
 
 
     # Customer URLs
