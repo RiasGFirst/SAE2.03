@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/list/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/list/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SAE2.03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SAE2.03.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drive/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/drive/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/drive/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/media/Capture_décran_2024-05-18_131633.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/media/Capture_décran_2024-05-18_131633_MBLgzGK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,25 +61,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.views_product.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "order",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/tarti/Desktop/SAE2.03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.views_product.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testV0.0.3&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tarti/Desktop/SAE2.03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\customer" />

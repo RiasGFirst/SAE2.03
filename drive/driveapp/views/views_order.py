@@ -52,14 +52,3 @@ def delete(request, id):
     order.delete()
     return HttpResponseRedirect("/order/")
 
-
-def add_product(request, id):
-    order = models.Order.objects.get(id=id)
-
-    pass
-
-def product_process(request, id):
-    order = models.Order.objects.get(id=id)
-
-    pass
-
