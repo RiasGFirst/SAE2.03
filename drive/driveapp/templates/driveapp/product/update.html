@@ -4,7 +4,7 @@
 {% block content %}
 <h1>Update the product {{product.name}}</h1>
 
-<form method="post" action="/product/processing_update/{{product.id}}/">
+<form method="post" enctype="multipart/form-data" action="/product/processing_update/{{product.id}}/">
     {% csrf_token %}
     {{ form.as_ul }}
     <input type="submit" value="Update"/>

@@ -3,29 +3,26 @@
 {% block title %}Home Product{% endblock %}
 
 {% block content %}
-<a href="/product/add/">Add a new product</a>
+<a href="/product/add/" class="add">Add a new product</a>
     <h1>Home Product</h1>
-    <table class="table table-striped">
+    <table class="table ">
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Description</th>
+                    <th>Price</th>
                     <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Loop through the categories and display them in the table -->
                 {% for product in products %}
                     <tr>
                         <td>{{ product.name }}</td>
-                        <td>{{ product.description }}</td>
-                        <td>
-                            <!-- Add a link to view the product -->
-                            <a href="/product/show/{{ product.id }}" class="btn btn-warning">View</a>
-                            <!-- Add a link to edit the category -->
-                            <a href="/product/update/{{ product.id }}" class="btn btn-warning">Edit</a>
-                            <!-- Add a form to delete the category -->
-                            <a href="/product/delete/{{ product.id }}" class="btn btn-warning">Remove</a>
+                        <td>{{ product.price }} €/unit</td>
+                        <td class="actions_cell">
+
+                            <a href="/product/show/{{ product.id }}" class="view">View</a>
+                            <a href="/product/update/{{ product.id }}" class="update">Edit</a>
+                            <a href="/product/delete/{{ product.id }}" class="delete">Remove</a>
                         </td>
                     </tr>
                 {% endfor %}

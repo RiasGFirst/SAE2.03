@@ -7,8 +7,13 @@
 
 {% block content %}
 <h1>Order {{order.number}}</h1>
-<p>{{order}}</p>
-        <table class="table table-striped">
+<ul>
+    <li>Customer : {{order.customer.name}} {{order.customer.forename}}</li>
+    <li>Status : {{order.status}}</li>
+    <li>Date of the order: {{order.date}}</li>
+</ul>
+
+        <table class="table ">
     <thead>
         <tr>
             <th>Name</th>
@@ -17,16 +22,15 @@
         </tr>
     </thead>
     <tbody>
-        <!-- Loop through the categories and display them in the table -->
         {% for List in l %}
             <tr>
                 <td>{{ List.product.name }}</td>
                 <td>{{ List.quantity }}</td>
-                <td>{{ List.product.price }}€/unite</td>
+                <td>{{ List.product.price }} €/unit</td>
             </tr>
         {% endfor %}
     </tbody>
 </table>
-<a href="/list/add/{{ order.id }}"> Add a product to the list </a>
+<a href="/list/add/{{ order.id }}" class="add"> Add a product to the list </a>
 
 {% endblock %}

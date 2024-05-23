@@ -8,25 +8,20 @@ class ProductForm(ModelForm):
         model = models.Product
         fields = ['name', 'category', 'date_peremption', 'image', 'brand', 'price']
         labels = {
-            'name': _('Name of the product'),
-            'category': _('Category of the product'),
-            'date_peremption': _('Expiration date of the product'),
-            'image': _('Image of the product'),
-            'brand': _('Brand of the product'),
-            'price': _('Price of the product'),
+            'name': _('Name'),
+            'category': _('Category'),
+            'date_peremption': _('Expiration date'),
+            'image': _('Image'),
+            'brand': _('Brand'),
+            'price': _('Price'),
         }
         help_texts = {
-            'name': _('Enter the name of the product'),
-            'category': _('Select the category of the product'),
+            'name': _("Enter the product's name"),
+            'category': _('Select an existing category for the product'),
             'date_peremption': _('Enter the expiration date of the product'),
-            'image': _('Select the image of the product'),
-            'brand': _('Enter the brand of the product'),
-            'price': _('Enter the price of the product'),
-        }
-        error_messages = {
-            'name': {
-                'max_length': _("This name is too long."),
-            },
+            'image': _('Select an image of the product'),
+            'brand': _("Enter the product's brand"),
+            'price': _("Enter the product's price (in €/unit)"),
         }
 
 
@@ -35,18 +30,14 @@ class CategoryForm(ModelForm):
         model = models.Category
         fields = ['name', 'description']
         labels = {
-            'name': _('Name of the category'),
-            'description': _('Description of the category'),
+            'name': _('Name'),
+            'description': _('Description'),
         }
         help_texts = {
-            'name': _('Enter the name of the category'),
-            'description': _('Enter the description of the category'),
+            'name': _("Enter the category's name"),
+            'description': _('Enter a short description of the category'),
         }
-        error_messages = {
-            'name': {
-                'max_length': _("This name is too long."),
-            },
-        }
+
 
 
 class OrderForm(ModelForm):
@@ -54,19 +45,14 @@ class OrderForm(ModelForm):
         model = models.Order
         fields = ['customer', 'number', 'status']
         labels = {
-            'customer': _('Customer of the order'),
-            'number': _('Number of the order'),
-            'status': _('Status of the order'),
+            'customer': _('Customer'),
+            'number': _('Number'),
+            'status': _('Status'),
         }
         help_texts = {
-            'customer': _('Select the customer of the order'),
-            'number': _('Enter the number of the order'),
-            'status': _('Enter the status of the order'),
-        }
-        error_messages = {
-            'number': {
-                'max_length': _("This number is too long."),
-            },
+            'customer': _('Select the customer who ordered'),
+            'number': _("Enter the order's number"),
+            'status': _("Select the order's status"),
         }
 
 
@@ -75,39 +61,30 @@ class ListForm(ModelForm):
         model = models.List
         fields = ['product', 'quantity']
         labels = {
-            'product': _('Product of the list'),
-            'quantity': _('Quantity of the list'),
+            'product': _('Product'),
+            'quantity': _('Quantity'),
         }
         help_texts = {
-            'order': _('Select the order of the list'),
-            'product': _('Select the product of the list'),
-            'quantity': _('Enter the quantity of the list'),
-        }
-        error_messages = {
-            'quantity': {
-                'max_length': _("This quantity is too long."),
-            },
+            'order': _("Select the list's associated order"),
+            'product': _("Select a product to add to the list"),
+            'quantity': _("Select the product's quantity"),
         }
 
 
 class CustomerForm(ModelForm):
     class Meta:
         model = models.Customer
-        fields = ['name', 'forname', 'address']
+        fields = ['name', 'forename', 'address']
         labels = {
-            'name': _('Name of the customer'),
-            'forname': _('Forname of the customer'),
-            'address': _('Address of the customer'),
+            'name': _('Name'),
+            'forename': _('forename'),
+            'address': _('Address'),
         }
         help_texts = {
-            'name': _('Enter the name of the customer'),
-            'forname': _('Enter the forname of the customer'),
-            'address': _('Enter the address of the customer'),
+            'name': _("Enter the customer's name"),
+            'forename': _("Enter the customer's forename"),
+            'address': _("Enter the customer's address"),
         }
-        error_messages = {
-            'name': {
-                'max_length': _("This name is too long."),
-            },
-        }
+
 
 

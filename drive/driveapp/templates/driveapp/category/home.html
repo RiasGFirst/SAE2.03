@@ -3,11 +3,10 @@
 {% block title %}Home Category{% endblock %}
 
 {% block content %}
-    <a href="/category/add/">Add a new category</a>
+    <a href="/category/add/" class="add">Add a new category</a>
     <h1>Home Category</h1>
 
-    <!-- Create a table to display the list of categories -->
-    <table class="table table-striped">
+    <table class="table ">
         <thead>
             <tr>
                 <th>Name</th>
@@ -16,16 +15,13 @@
             </tr>
         </thead>
         <tbody>
-            <!-- Loop through the categories and display them in the table -->
             {% for category in categories %}
                 <tr>
                     <td>{{ category.name }}</td>
                     <td>{{ category.description }}</td>
-                    <td>
-                        <!-- Add a link to edit the category -->
-                        <a href="/category/update/{{ category.id }}" class="btn btn-warning">Edit</a>
-                        <!-- Add a form to delete the category -->
-                        <a href="/category/delete/{{ category.id }}" class="btn btn-warning">Remove</a>
+                    <td class="actions_cell">
+                        <a href="/category/update/{{ category.id }}" class="update">Edit</a>
+                        <a href="/category/delete/{{ category.id }}" class="delete">Remove</a>
                     </td>
                 </tr>
             {% endfor %}

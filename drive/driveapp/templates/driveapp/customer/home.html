@@ -3,31 +3,28 @@
 {% block title %}Home Customer{% endblock %}
 
 {% block content %}
-<a href="/customer/add/">Add a new customer</a>
+<a href="/customer/add/" class="add">Add a new customer</a>
     <h1>Home Customer</h1>
-    <table class="table table-striped">
+    <table class="table ">
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Forname</th>
+                    <th>forename</th>
                     <th>Address</th>
                     <th>Inscription date</th>
                     <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Loop through the categories and display them in the table -->
                 {% for customer in customers %}
                     <tr>
                         <td>{{ customer.name }}</td>
-                        <td>{{ customer.forname }}</td>
+                        <td>{{ customer.forename }}</td>
                         <td>{{ customer.address }}</td>
                         <td>{{ customer.inscription_date }}</td>
-                        <td>
-                            <!-- Add a link to edit the category -->
-                            <a href="/customer/update/{{ customer.id }}" class="btn btn-warning">Edit</a>
-                            <!-- Add a form to delete the category -->
-                            <a href="/customer/delete/{{ customer.id }}" class="btn btn-warning">Remove</a>
+                        <td class="actions_cell">
+                            <a href="/customer/update/{{ customer.id }}" class="update">Edit</a>
+                            <a href="/customer/delete/{{ customer.id }}" class="delete">Remove</a>
                         </td>
                     </tr>
                 {% endfor %}

@@ -4,12 +4,12 @@ from django.db import models
 # Create your models here.
 class Customer(models.Model):
     name = models.CharField(max_length=100)
-    forname = models.CharField(max_length=100)
+    forename = models.CharField(max_length=100)
     inscription_date = models.DateField(auto_now=True)
     address = models.CharField(max_length=100)
 
     def __str__(self):
-        return f"{self.name}, {self.forname}"
+        return f"{self.name}, {self.forename}"
 
 
 class Category(models.Model):
@@ -20,16 +20,11 @@ class Category(models.Model):
         return f"{self.name}, {self.description}"
     
 
-
-
-
-
-
 class Product(models.Model):
     name = models.CharField(max_length=100)
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
     date_peremption = models.DateField()
-    image = models.ImageField(null=True, blank=True)
+    image = models.ImageField()
     brand = models.CharField(max_length=100)
     price = models.FloatField()
 

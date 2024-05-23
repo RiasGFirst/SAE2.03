@@ -5,11 +5,9 @@
 {{block.super}}
 <h1> Customer added successfully </h1>
 
-<p>{{customer}}</p>
+<p>The customer {{customer.name}} {{customer.forename}} has been added</p>
 
-<p>The customer {{customer.name}} has been added</p>
-
-<a href="/customer"> Back to customer list </a>
+<a href="/customer" class="add"> Back to customer list </a>
 
 
 {% endblock %}

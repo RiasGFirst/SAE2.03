@@ -31,7 +31,8 @@ def update(request, id):
 
 
 def processing_update(request, id):
-    lform = OrderForm(request.POST)
+    order = models.Order.objects.get(id=id)
+    lform = OrderForm(request.POST, instance=order)
     if lform.is_valid():
         order = lform.save(commit=False)
         order.id = id

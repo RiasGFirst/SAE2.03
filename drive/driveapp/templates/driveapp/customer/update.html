@@ -4,7 +4,7 @@
 {% block content %}
 <h1>Update the customer {{customer.name}}</h1>
 
-<form method="post" action="/customer/processing_update/{{order.id}}/">
+<form method="post" action="/customer/processing_update/{{customer.id}}/">
     {% csrf_token %}
     {{ form.as_ul }}
     <input type="submit" value="Update"/>

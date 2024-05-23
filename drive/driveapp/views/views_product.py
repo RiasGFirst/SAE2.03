@@ -37,11 +37,10 @@ def update(request, id):
 
 
 def processing_update(request, id):
-    lform = ProductForm(request.POST)
+    product = models.Product.objects.get(id=id)
+    lform = ProductForm(request.POST, request.FILES, instance=product)
     if lform.is_valid():
-        product = lform.save(commit=False)
-        product.id = id
-        product.save()
+        lform.save()
         return HttpResponseRedirect("/product/")
     else:
         return render(request, "driveapp/product/update.html", {"form": lform, "id": id})

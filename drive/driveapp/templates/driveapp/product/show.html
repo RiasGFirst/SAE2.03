@@ -7,6 +7,12 @@
 
 {% block content %}
 <h1>{{product.name}}</h1>
-<p>{{product}}</p>
+<ul>
+    <li>Category : {{product.category.name}}</li>
+    <li>Brand : {{product.brand}}</li>
+    <li>Price : {{product.price}} €/unit</li>
+    <li>Expiration date : {{product.date_peremption}}</li>
+</ul>
+
 <img src="{{product.image.url}}"/>
 {% endblock %}
