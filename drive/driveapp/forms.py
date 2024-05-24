@@ -77,7 +77,7 @@ class CustomerForm(ModelForm):
         fields = ['name', 'forename', 'address']
         labels = {
             'name': _('Name'),
-            'forename': _('forename'),
+            'forename': _('Forename'),
             'address': _('Address'),
         }
         help_texts = {

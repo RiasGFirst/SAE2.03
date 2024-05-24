@@ -26,6 +26,10 @@ urlpatterns = [
     # List URLs
 
     path('list/add/<int:id>/', views_list.add),
+    path('list/processing/<int:id>/', views_list.processing),
+    path('list/update/<int:id>/<int:order_id>', views_list.update),
+    path('list/processing_update/<int:id>/<int:order_id>/', views_list.processing_update),
+    path('list/delete/<int:id>/<int:order_id>/', views_list.delete),
 
 
 
@@ -35,8 +39,8 @@ urlpatterns = [
     path('customer/processing/', views_customer.processing),
     path('customer/update/<int:id>', views_customer.update),
     path('customer/processing_update/<int:id>/', views_customer.processing_update),
-    path('customer/show/<int:id>', views_customer.show),
-    path('customer/delete/<int:id>', views_customer.delete),
+    path('customer/show/<int:id>/', views_customer.show),
+    path('customer/delete/<int:id>/', views_customer.delete),
 
     # Category URLs
     path('category/', views_category.home),

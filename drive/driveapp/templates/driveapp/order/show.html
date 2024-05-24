@@ -19,6 +19,7 @@
             <th>Name</th>
             <th>Quantité</th>
             <th>Prix</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -27,6 +28,10 @@
                 <td>{{ List.product.name }}</td>
                 <td>{{ List.quantity }}</td>
                 <td>{{ List.product.price }} €/unit</td>
+                <td class="actions_cell">
+                    <a href="/list/update/{{ List.id }}/{{ order.id }}" class="update">Edit</a>
+                    <a href="/list/delete/{{ List.id }}/{{ order.id }}" class="delete">Remove</a>
+                </td>
             </tr>
         {% endfor %}
     </tbody>
