@@ -42,7 +42,7 @@ class CategoryForm(ModelForm):
 
 class OrderForm(ModelForm):
     class Meta:
-        model = models.Order
+        model = models.Orders
         fields = ['customer', 'number', 'status']
         labels = {
             'customer': _('Customer'),

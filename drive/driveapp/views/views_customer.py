@@ -42,7 +42,7 @@ def processing_update(request, id):
 
 
 def show(request, id):
-    customer = models.CustomerForm.objects.get(id=id)
+    customer = models.Customer.objects.get(id=id)
     return render(request, 'driveapp/customer/show.html', {'customer': customer})
 
 

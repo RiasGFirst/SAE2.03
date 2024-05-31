@@ -3,9 +3,10 @@ from django.forms import inlineformset_factory
 from ..forms import ListForm
 from .. import models
 
+
 def add(request, id):
-    order = models.Order.objects.get(pk=id)
-    ListFormSet = inlineformset_factory(models.Order, models.List, form=ListForm, extra=1)
+    order = models.Orders.objects.get(pk=id)
+    ListFormSet = inlineformset_factory(models.Orders, models.List, form=ListForm, extra=1)
     if request.method == 'POST':
         formset = ListFormSet(request.POST, instance=order)
         if formset.is_valid():
