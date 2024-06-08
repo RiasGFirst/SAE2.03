@@ -14,5 +14,7 @@
     <li>Expiration date : {{product.date_peremption}}</li>
 </ul>
 
-<img src="{{product.image.url}}"/>
+{% if product.image and product.image.url %}
+    <img src="{{product.image.url}}"/>
+{% endif %}
 {% endblock %}

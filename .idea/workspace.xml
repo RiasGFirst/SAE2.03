@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V0.0.5 Test of PDF export">
-      <change afterPath="$PROJECT_DIR$/cleaning.py" afterDir="false" />
+    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V0.0.6 DB Finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/drive/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/drive/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0002_alter_product_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0003_alter_list_order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0004_remove_order_products_remove_list_product_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0005_remove_list_product_remove_list_quantity_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0006_remove_list_products_list_product_list_quantity_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0007_alter_list_product.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0008_rename_client_order_customer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0009_alter_order_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0010_alter_product_date_peremption.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0011_alter_product_brand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0012_alter_product_brand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0013_alter_product_brand_alter_product_date_peremption.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0014_alter_product_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/migrations/0015_rename_forname_customer_forename.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/static/driveapp/css/templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/static/driveapp/css/templates.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
@@ -48,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="DB" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,26 +63,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.cleaning.executor&quot;: &quot;Run&quot;,
-    &quot;Python.views_product.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;DB&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tarti/Desktop/SAE2.03&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.cleaning.executor": "Run",
+    "Python.views_product.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Import__export",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/tarti/Desktop/SAE2.03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\customer" />
@@ -136,6 +120,8 @@
       <workItem from="1717066274745" duration="605000" />
       <workItem from="1717126249306" duration="2023000" />
       <workItem from="1717145718531" duration="131000" />
+      <workItem from="1717149623981" duration="448000" />
+      <workItem from="1717834640768" duration="8054000" />
     </task>
     <task id="LOCAL-00001" summary="Start project">
       <option name="closed" value="true" />
@@ -161,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716030213976</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V0.0.6 DB Finish">
+      <option name="closed" value="true" />
+      <created>1717150066482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717150066482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +165,8 @@
     <MESSAGE value="Start project" />
     <MESSAGE value="V0.0.1 C.R.U.D Not Working have to finish" />
     <MESSAGE value="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end" />
+    <MESSAGE value="V0.0.6 DB Finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.0.6 DB Finish" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SAE2_03$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1717127120990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -13,6 +13,7 @@ urlpatterns = [
     path('product/processing_update/<int:id>/', views_product.processing_update),
     path('product/show/<int:id>', views_product.show),
     path('product/delete/<int:id>', views_product.delete),
+    path('product/import/', views_product.import_product),
 
     # Order URLs
     path('order/', views_order.home),
@@ -22,6 +23,7 @@ urlpatterns = [
     path('order/processing_update/<int:id>/', views_order.processing_update),
     path('order/show/<int:id>', views_order.show),
     path('order/delete/<int:id>', views_order.delete),
+    path('order/export/<int:id>', views_order.export_orders),
 
     # List URLs
 
