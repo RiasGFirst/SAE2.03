@@ -10,8 +10,17 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+from dotenv import load_dotenv
 from pathlib import Path
-from os import path
+from os import path, getenv
+
+load_dotenv()
+
+db_user = getenv('DATABASE_USER')
+db_passwd = getenv('DATABASE_PASSWORD')
+db_name = getenv('DATABASE_NAME')
+db_host = getenv('DATABASE_HOST')
+db_port = getenv('DATABASE_PORT')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -78,11 +87,11 @@ WSGI_APPLICATION = 'drive.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
-        'USER': 'toto',
-        'PASSWORD': 'toto',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': db_name,
+        'USER': db_user,
+        'PASSWORD': db_passwd,
+        'HOST': db_host,
+        'PORT': db_port,
     }
 }
 
