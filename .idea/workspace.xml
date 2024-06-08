@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V0.0.6 DB Finish">
+    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V1.0 Project finish">
+      <change afterPath="$PROJECT_DIR$/examples/product.csv.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/static/driveapp/css/templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/static/driveapp/css/templates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/order/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/templates/driveapp/product/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/driveapp/views/views_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleaning.py" beforeDir="false" />
     </list>
     <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +115,7 @@
       <workItem from="1717126249306" duration="2023000" />
       <workItem from="1717145718531" duration="131000" />
       <workItem from="1717149623981" duration="448000" />
-      <workItem from="1717834640768" duration="8054000" />
+      <workItem from="1717834640768" duration="8843000" />
     </task>
     <task id="LOCAL-00001" summary="Start project">
       <option name="closed" value="true" />
@@ -155,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717150066482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="V1.0 Project finish">
+      <option name="closed" value="true" />
+      <created>1717843938440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717843938440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +168,8 @@
     <MESSAGE value="V0.0.1 C.R.U.D Not Working have to finish" />
     <MESSAGE value="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end" />
     <MESSAGE value="V0.0.6 DB Finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.0.6 DB Finish" />
+    <MESSAGE value="V1.0 Project finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.0 Project finish" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SAE2_03$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1717127120990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
