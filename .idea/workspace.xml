@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V1.0 Project finish">
-      <change afterPath="$PROJECT_DIR$/examples/product.csv.example" afterDir="false" />
+    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V1.0.1 Update README">
+      <change afterPath="$PROJECT_DIR$/drive/static/driveapp/css/templates.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cleaning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drive/drive/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/settings.py" afterDir="false" />
     </list>
     <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Import__export",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/tarti/Desktop/SAE2.03",
+    "last_opened_file_path": "C:/Users/Rias/PycharmProjects/SAE2.03/drive/driveapp/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,12 +79,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\static" />
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\customer" />
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\order" />
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\product" />
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\templates\driveapp\category" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\static\driveapp" />
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp" />
       <recent name="C:\Users\Rias\PycharmProjects\SAE2.03\drive\driveapp\views" />
     </key>
@@ -115,7 +117,8 @@
       <workItem from="1717126249306" duration="2023000" />
       <workItem from="1717145718531" duration="131000" />
       <workItem from="1717149623981" duration="448000" />
-      <workItem from="1717834640768" duration="8843000" />
+      <workItem from="1717834640768" duration="9125000" />
+      <workItem from="1717859479084" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="Start project">
       <option name="closed" value="true" />
@@ -157,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717843938440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="V1.0.1 Update README">
+      <option name="closed" value="true" />
+      <created>1717844864917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717844864917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +180,8 @@
     <MESSAGE value="V0.0.2 C.R.U.D&#10;C.R.U.D for Category end" />
     <MESSAGE value="V0.0.6 DB Finish" />
     <MESSAGE value="V1.0 Project finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.0 Project finish" />
+    <MESSAGE value="V1.0.1 Update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.0.1 Update README" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SAE2_03$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1717127120990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
