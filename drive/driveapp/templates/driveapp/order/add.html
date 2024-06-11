@@ -1,0 +1,14 @@
+{% extends "driveapp/templates.html" %}
+{% block title %} Drive | Create order {% endblock %}
+
+{% block content %}
+{{block.super}}
+<h1> Create an order </h1>
+
+<form method="post" action="/order/processing/">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <input type="submit" value="Create">
+</form>
+
+{% endblock %}

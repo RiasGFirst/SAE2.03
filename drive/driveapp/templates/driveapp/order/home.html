@@ -1,0 +1,33 @@
+{% extends "driveapp/templates.html" %}
+
+{% block title %}Home Order{% endblock %}
+
+{% block content %}
+<a href="/order/add/" class="add">Add a new order</a>
+    <h1>Home Order</h1>
+    <table class="table ">
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Customer</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders %}
+                    <tr>
+                        <td>{{ order.number }}</td>
+                        <td>{{ order.customer.name }} {{ order.customer.forename }}</td>
+                        <td>{{ order.status }}</td>
+                        <td class="actions_cell">
+                            <a href="/order/show/{{ order.id }}" class="view">View</a>
+                            <a href="/order/update/{{ order.id }}" class="update">Edit</a>
+                            <a href="/order/delete/{{ order.id }}" class="delete">Remove</a>
+                            <a href="/order/export/{{ order.id }}" class="pdf">PDF</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+{% endblock %}

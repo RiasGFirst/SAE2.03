@@ -1,0 +1,34 @@
+{% extends "driveapp/templates.html" %}
+
+{% block title %}Home Customer{% endblock %}
+
+{% block content %}
+<a href="/customer/add/" class="add">Add a new customer</a>
+    <h1>Home Customer</h1>
+    <table class="table ">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>forename</th>
+                    <th>Address</th>
+                    <th>Inscription date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for customer in customers %}
+                    <tr>
+                        <td>{{ customer.name }}</td>
+                        <td>{{ customer.forename }}</td>
+                        <td>{{ customer.address }}</td>
+                        <td>{{ customer.inscription_date }}</td>
+                        <td class="actions_cell">
+                            <a href="/customer/update/{{ customer.id }}" class="update">Edit</a>
+                            <a href="/customer/delete/{{ customer.id }}" class="delete">Remove</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+{% endblock %}

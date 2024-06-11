@@ -1,0 +1,6 @@
+django
+pillow
+mysqlclient
+reportlab
+gunicorn
+python-dotenv

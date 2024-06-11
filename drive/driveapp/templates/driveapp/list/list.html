@@ -1,0 +1,17 @@
+{% extends "driveapp/templates.html" %}
+{% block title %} Drive | Add Product to the list {% endblock %}
+
+{% block content %}
+{{block.super}}
+
+<form method="post">
+    {% csrf_token %}
+    {{ formset.management_form }}
+    <table>
+        {% for form in formset.forms %}
+            {{ form.as_table }}
+        {% endfor %}
+    </table>
+    <button type="submit">Save</button>
+</form>
+{% endblock %}

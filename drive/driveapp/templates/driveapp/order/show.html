@@ -1,0 +1,36 @@
+{% extends 'driveapp/templates.html' %}
+
+
+{% block title %}
+    {{order.numberS}}
+{% endblock %}
+
+{% block content %}
+<h1>Order {{order.number}}</h1>
+<ul>
+    <li>Customer : {{order.customer.name}} {{order.customer.forename}}</li>
+    <li>Status : {{order.status}}</li>
+    <li>Date of the order: {{order.date}}</li>
+</ul>
+
+        <table class="table ">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantité</th>
+            <th>Prix</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for List in l %}
+            <tr>
+                <td>{{ List.product.name }}</td>
+                <td>{{ List.quantity }}</td>
+                <td>{{ List.product.price }} €/unit</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="/list/add/{{ order.id }}" class="add"> Add a product to the list </a>
+
+{% endblock %}

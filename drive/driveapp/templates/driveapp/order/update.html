@@ -1,0 +1,12 @@
+{% extends "driveapp/templates.html" %}
+{% block title %} Drive | Update the order {% endblock %}
+
+{% block content %}
+<h1>Update the order number {{order.number}}</h1>
+
+<form method="post" action="/order/processing_update/{{order.id}}/">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <input type="submit" value="Update"/>
+</form>
+{% endblock %}

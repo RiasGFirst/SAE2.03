@@ -1,0 +1,20 @@
+{% extends 'driveapp/templates.html' %}
+
+
+{% block title %}
+    {{product.name}}
+{% endblock %}
+
+{% block content %}
+<h1>{{product.name}}</h1>
+<ul>
+    <li>Category : {{product.category.name}}</li>
+    <li>Brand : {{product.brand}}</li>
+    <li>Price : {{product.price}} €/unit</li>
+    <li>Expiration date : {{product.date_peremption}}</li>
+</ul>
+
+{% if product.image and product.image.url %}
+    <img src="{{product.image.url}}"/>
+{% endif %}
+{% endblock %}

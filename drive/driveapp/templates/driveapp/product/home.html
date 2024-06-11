@@ -1,0 +1,40 @@
+{% extends "driveapp/templates.html" %}
+
+{% block title %}Home Product{% endblock %}
+
+{% block content %}
+<a href="/product/add/" class="add">Add a new product</a>
+    <h1>Home Product</h1>
+    <table class="table ">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in products %}
+                    <tr>
+                        <td>{{ product.name }}</td>
+                        <td>{{ product.price }} €/unit</td>
+                        <td class="actions_cell">
+
+                            <a href="/product/show/{{ product.id }}" class="view">View</a>
+                            <a href="/product/update/{{ product.id }}" class="update">Edit</a>
+                            <a href="/product/delete/{{ product.id }}" class="delete">Remove</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+<form method="post" enctype="multipart/form-data" action="/product/import/" class="form-inline">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="myfile" class="sr-only">Importer des produits (CSV)</label>
+        <input type="file" name="myfile" id="myfile" class="form-control-file mr-2">
+    </div>
+    <button type="submit" class="btn btn-secondary">Importer</button>
+</form>
+{% endblock %}

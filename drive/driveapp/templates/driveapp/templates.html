@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'driveapp/css/templates.css'%}">
+
+    <title>{% block title %}          {% endblock %}</title>
+
+</head>
+<body>
+    <nav id="nav">
+        <a href="/">Drive</a>
+        <a href="/category">Categories</a>
+        <a href="/product">Products</a>
+        <a href="/customer">Customers</a>
+        <a href="/order">Orders</a>
+    </nav>
+
+   {% block img %}
+
+    {% endblock %}
+
+    <div id="content">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+</body>
+</html>
