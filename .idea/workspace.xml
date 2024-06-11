@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V1.0.2 test CSS">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/drive_nginx.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/gunicorn.service.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/gunicorn.socket.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drive/drive/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drive/drive/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="b0637819-f543-46f5-9cdd-bc52a584461c" name="Changes" comment="V1.0.3 Final version" />
     <list id="fc080393-430b-414b-bd6f-7daa602f450a" name="Changes by tarti" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +115,7 @@
       <workItem from="1717149623981" duration="448000" />
       <workItem from="1717834640768" duration="9125000" />
       <workItem from="1717859479084" duration="2648000" />
-      <workItem from="1717864531600" duration="496000" />
+      <workItem from="1717864531600" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Start project">
       <option name="closed" value="true" />
@@ -182,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717861356150</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="V1.0.3 Final version">
+      <option name="closed" value="true" />
+      <created>1717865121261</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717865121261</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +195,8 @@
     <MESSAGE value="V1.0 Project finish" />
     <MESSAGE value="V1.0.1 Update README" />
     <MESSAGE value="V1.0.2 test CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.0.2 test CSS" />
+    <MESSAGE value="V1.0.3 Final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.0.3 Final version" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SAE2_03$cleaning.coverage" NAME="cleaning Coverage Results" MODIFIED="1717127120990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
